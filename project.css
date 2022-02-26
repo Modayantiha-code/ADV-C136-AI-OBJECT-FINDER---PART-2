@@ -1,0 +1,44 @@
+body {
+    background-color: mistyrose;
+}
+
+.heading {
+    color: cadetblue;
+    font-weight: bold;
+    font-size: 35px;
+    background-color: rgba(0, 0, 0, 0.171);
+    margin: 0px;
+    padding: 20px;
+}
+
+#startbutton {
+    font-weight: bold;
+    border-radius: 100px;
+}
+
+#modelstatus,
+#numberofobjects {
+    color: cadetblue;
+    font-weight: 700;
+}
+
+#footer {
+    color: cadetblue;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+
+canvas {
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(255, 186, 58);
+    box-shadow: 10px 10px 50px rgb(255, 186, 58);
+    margin-top: 100px;
+}
+
+input {
+    width: 60%;
+}
